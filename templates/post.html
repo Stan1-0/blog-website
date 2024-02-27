@@ -160,7 +160,7 @@
     </div>
     <!-- header section end -->
     <!-- barber section start -->
-    {% for post in posts reversed%}
+    
     <div class="barber_section layout_padding">
       <div class="container">
         <div class="braber_taital_main">
@@ -168,13 +168,13 @@
             <div class="col-lg-6">
               
               <div class="barber_bg_main">
-                <a href="#">
-                  <h1 class="barber_taital">{{post.title}}</h1>
-                  <p class="barber_text">{{post.body|truncatewords:20}}</p>
+                
+                  <h1 class="barber_taital">{{posts.title}}</h1>
+                  <p class="barber_text">{{posts.body}}</p>
                   <div class="blogr_main">
                   <div class="blogr_left">
-                    <p class="post_text">{{post.post_by}}</p>
-                    <h5>{{post.created_at}}</h5>
+                    <p class="post_text">{{posts.post_by}}</p>
+                    <h5>{{posts.created_at}}</h5>
                   </div>
                   <div class="blogr_right">
                     <div class="comment_text">
@@ -206,7 +206,7 @@
                 </div>
               </div>
             </div>
-            {% endfor %}
+           
           </div>
         </div>
        

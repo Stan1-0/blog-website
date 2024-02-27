@@ -6,5 +6,5 @@ def index(request):
     return render(request, 'index.html', {'posts': posts})
 
 def post(request, pk):
-    posts = Post.object.get(id=pk)
+    posts = Post.objects.get(id=pk)
     return render(request, 'posts.html', {'posts': posts})

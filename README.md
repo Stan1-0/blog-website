@@ -21,5 +21,8 @@ This is a simple blog website built using the Django framework. It allows anadmi
 - To create a new blog post, an admin must log in to the admin panel and navigate to the "Post" page.
 - To update or delete a blog post, navigate to the post and click on the "Edit" or "Delete" button.
 
+## Acknowledgements
+- BLOGR for the template
+
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.

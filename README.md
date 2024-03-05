@@ -1,6 +1,6 @@
 
 # Blog Website using Django Framework
-This is a simple blog website built using the Django framework. It allows anadmin to create, read, update, and delete blog posts from the admin panel. Users can only read posts.
+This is a simple blog website built using the Django framework. It allows an admin to create, read, update, and delete blog posts from the admin panel. Users can only read posts.
 
 ## Features
 - User authentication: Users can register, login, and logout.
@@ -13,7 +13,7 @@ This is a simple blog website built using the Django framework. It allows anadmi
 - Install dependencies: pip install -r requirements.txt
 - Run migrations: python manage.py migrate
 - Create a superuser (admin): python manage.py createsuperuser
-- Create a superuser (admin): python manage.py runserver
+-Run the Django development server: python manage.py runserver
 
 - Access the website at http://localhost:8000
 

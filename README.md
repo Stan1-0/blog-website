@@ -9,7 +9,6 @@ This is a simple blog website built using the Django framework. It allows an adm
 
 ## Installation
 - To get started, follow the steps below:
-- 
 ``` bash
  git clone https://github.com/Stan1-0/blog-website.git
  cd blog-website

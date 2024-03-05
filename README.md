@@ -8,14 +8,16 @@ This is a simple blog website built using the Django framework. It allows an adm
 - CRUD operations: Users with admin privilleages can create, read, update, and delete their own blog posts.
 
 ## Installation
-- Clone the repository: git clone https://github.com/Stan1-0/blog-website.git
-- Navigate to the project directory: cd blog-website
-- Install dependencies: pip install -r requirements.txt
-- Run migrations: python manage.py migrate
-- Create a superuser (admin): python manage.py createsuperuser
--Run the Django development server: python manage.py runserver
+''' bash
+ git clone https://github.com/Stan1-0/blog-website.git
+ cd blog-website
+ pip install -r requirements.txt
+ python manage.py migrate
+ python manage.py createsuperuser
+ python manage.py runserver
+ '''
 
-- Access the website at http://localhost:8000
+- Access the website at 'http://localhost:8000'
 
 ## Usage
 - To create a new blog post, an admin must log in to the admin panel and navigate to the "Post" page.
